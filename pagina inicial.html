@@ -1,0 +1,300 @@
+<!DOCTYPE html> 
+
+<html lang="pt-BR"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>SETEMBRO AMARELO</title> 
+
+  
+
+    <!-- Inclua os links para as bibliotecas CSS e JavaScript necessárias (Bootstrap) --> 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+  
+
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+</head> 
+
+<body> 
+
+    <!-- Barra de Navegação --> 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+
+        <a class="navbar-brand" href="#">SETEMBRO AMARELO</a> 
+
+        <button class="navbar-toggler" type="button" data-toggle="offcanvas" data-target="#sidebar"> 
+
+            <span class="navbar-toggler-icon"></span> 
+
+        </button> 
+
+    </nav> 
+
+  
+
+    <!-- Barra Lateral (Offcanvas) --> 
+
+    <div class="offcanvas offcanvas-start" id="sidebar"> 
+
+        <div class="offcanvas-header"> 
+
+            <h5 class="offcanvas-title">MENU</h5> 
+
+            <button type="button" class="close" data-dismiss="offcanvas" aria-label="Fechar"> 
+
+                <span aria-hidden="true">&times;</span> 
+
+            </button> 
+
+        </div> 
+
+        <div class="offcanvas-body"> 
+
+            <ul class="list-group"> 
+
+                <li class="list-group-item">Página Inicial</li> 
+
+                <a href="sobre setembro amarelo.html">Sobre Setembro Amarelo</a> 
+
+
+            </ul> 
+
+        </div> 
+
+    </div> 
+
+  
+
+    <!-- Carrossel (Carousel) --> 
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel"> 
+
+        <ol class="carousel-indicators"> 
+
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li> 
+
+            <li data-target="#carouselExample" data-slide-to="1"></li> 
+
+            <li data-target="#carouselExample" data-slide-to="2"></li> 
+
+        </ol> 
+
+        <div class="carousel-inner"> 
+
+            <div class="carousel-item active"> 
+
+                <img src="setembro.jpeg" class="d-block w-100" alt="Imagem 1"> 
+
+            </div> 
+
+            <div class="carousel-item"> 
+
+                <img src="amarelo.jpeg" class="d-block w-100" alt="Imagem 2"> 
+
+            </div> 
+
+            <div class="carousel-item"> 
+
+                <img src="suicidio.jpeg" class="d-block w-100" alt="Imagem 3"> 
+
+            </div> 
+
+        </div> 
+
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev"> 
+
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+
+            <span class="sr-only">Anterior</span> 
+
+        </a> 
+
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next"> 
+
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+
+            <span class="sr-only">Próximo</span> 
+
+        </a> 
+
+    </div> 
+
+  
+
+    <!-- Caixa de diálogo (Modal) --> 
+
+    <div class="modal fade" id="myModal"> 
+
+        <div class="modal-dialog"> 
+
+            <div class="modal-content"> 
+
+                <div class="modal-header"> 
+
+                    <h5 class="modal-title">Caixa de Diálogo</h5> 
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> 
+
+                </div> 
+
+                <div class="modal-body"> 
+
+                    Se precisar ligue para o  CVV, disque 188 
+
+                </div> 
+
+                <div class="modal-footer"> 
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button> 
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+  
+
+    <!-- Caixa de Notificação (Toast) --> 
+
+    <div class="toast" id="myToast" data-autohide="true" data-delay="3000"> 
+
+        <div class="toast-header"> 
+
+            <strong class="mr-auto">Notificação</strong> 
+
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Fechar"> 
+
+                <span aria-hidden="true">&times;</span> 
+
+            </button> 
+
+        </div> 
+
+        <div class="toast-body"> 
+
+            Este é um exemplo de notificação. 
+
+        </div> 
+
+    </div> 
+
+  
+
+    <!-- Acordeão (Sanfona) --> 
+
+    <div class="container mt-4"> 
+
+        <div class="accordion" id="accordionExample"> 
+
+            <div class="card"> 
+
+                <div class="card-header" id="headingOne"> 
+
+                    <h2 class="mb-0"> 
+
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+
+                             
+
+                        </button> 
+
+                    </h2> 
+
+                </div> 
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"> 
+
+                    <div class="card-body"> 
+
+                       Ações setembro amarelo 
+
+Fique por dentro das atividades do CVV e da Campanha Setembro Amarelo em todo o Brasil. 
+
+ 
+
+                    </div> 
+
+                </div> 
+
+            </div> 
+
+            <div class="card"> 
+
+                <div class="card-header" id="headingTwo"> 
+
+                    <h2 class="mb-0"> 
+
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 
+
+                        contato 
+
+ 
+
+                        </button> 
+
+                    </h2> 
+
+                </div> 
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample"> 
+
+                    <div class="card-body"> 
+
+                        ligue para o cvv:188 
+
+                    </div> 
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+  
+
+    <!-- JavaScript para ativar os componentes Bootstrap --> 
+
+    <script> 
+
+        // Ativar o carrossel 
+
+        $('#carouselExample').carousel(); 
+
+  
+
+        // Exibir a caixa de diálogo 
+
+        $('#myModal').modal(); 
+
+  
+
+        // Exibir a caixa de notificação 
+
+        $('#myToast').toast('show'); 
+
+    </script> 
+
+</body> 
+
+</html> 
